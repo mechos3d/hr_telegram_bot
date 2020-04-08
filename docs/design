@@ -1,0 +1,18 @@
+0 Нужно ли добавлять возможность выбора языка (русский-английский)
+
+1 /start ->
+    show options :
+    * Ищу работу
+    * Ищу сотрудника
+    * (появляется только для владельца приложения) --> Скачать файл "Ищу работу"
+    * (появляется только для владельца приложения) --> Скачать файл "Ищу сотрудника"
+
+2
+Keep stuff in PG
+
+3 On click 'Download file...' :
+  - get data from PG
+  - format data -> build xlsx
+  - send this xlsx file to email (or can send it to Telegram ?)
+
+4
