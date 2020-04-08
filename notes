@@ -1,0 +1,7 @@
+1 First - do everything by this manual:
+  https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+
+2 Second - enable the worker process:
+  heroku ps:scale worker=1
+
+## -----------------------------------------------------------------
